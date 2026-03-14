@@ -51,7 +51,7 @@ stages:
           - task: SSH@0
             displayName: "Run Update Script - Staging"
             inputs:
-              sshEndpoint: 'ssh-odoo17'
+              sshEndpoint: 'ssh-odoo17-staging'
               runOptions: commands
               commands: |
                 echo "$(STAGINGUSERPASSWORD)" | sudo -S -p '' chmod +x $(updateScript)
@@ -95,7 +95,7 @@ stages:
           - task: SSH@0
             displayName: "Run Update Script - Production"
             inputs:
-              sshEndpoint: 'ssh-odoo17-production'
+              sshEndpoint: 'ssh-odoo17-prod'
               runOptions: commands
               commands: |
                 echo "$(STAGINGUSERPASSWORD)" | sudo -S -p '' chmod +x $(updateScript)
