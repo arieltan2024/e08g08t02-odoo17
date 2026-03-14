@@ -1,0 +1,361 @@
+﻿[2026-03-14 15:15:44Z INFO HostContext] HTTP Trace Environment Variable: ''
+[2026-03-14 15:15:44Z INFO HostContext] HTTP trace not enabled - environment variable not set or false
+[2026-03-14 15:15:44Z VERB AgentProcess] Entering MainAsync
+[2026-03-14 15:15:44Z INFO AgentProcess] Agent package win-x64.
+[2026-03-14 15:15:44Z INFO AgentProcess] Running on Windows (X64).
+[2026-03-14 15:15:44Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.26200.
+[2026-03-14 15:15:44Z VERB Terminal] Entering Initialize
+[2026-03-14 15:15:44Z INFO AgentProcess] Version: 4.269.0
+[2026-03-14 15:15:44Z INFO AgentProcess] Commit: fe74f10cf4f7b45791d5995286e9bcdc203619ee
+[2026-03-14 15:15:44Z INFO AgentProcess] Culture: en-US
+[2026-03-14 15:15:44Z INFO AgentProcess] UI Culture: en-US
+[2026-03-14 15:15:44Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:44Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:44Z INFO AgentProcess] Validating directory permissions for: 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:44Z VERB AgentProcess] Configuring Windows-specific settings and validating prerequisites
+[2026-03-14 15:15:44Z VERB PowerShellExeUtil] Entering Initialize
+[2026-03-14 15:15:44Z VERB PowerShellExeUtil] Entering GetPath
+[2026-03-14 15:15:44Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-03-14 15:15:44Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-03-14 15:15:44Z INFO PowerShellExeUtil] Generation: '1'
+[2026-03-14 15:15:44Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-03-14 15:15:44Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-03-14 15:15:44Z INFO PowerShellExeUtil] Generation: '3'
+[2026-03-14 15:15:44Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-03-14 15:15:44Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-03-14 15:15:44Z INFO AgentProcess] PowerShell validation successful - compatible version found
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2026-03-14 15:15:44Z INFO AgentProcess]  'CDF'
+[2026-03-14 15:15:44Z INFO AgentProcess]  'v4'
+[2026-03-14 15:15:44Z INFO AgentProcess]  'v4.0'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2026-03-14 15:15:44Z INFO AgentProcess]  'Client'
+[2026-03-14 15:15:44Z INFO AgentProcess]  'Full'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09221'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533509'
+[2026-03-14 15:15:44Z INFO AgentProcess] Type is System.Int32
+[2026-03-14 15:15:44Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09221'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533509'
+[2026-03-14 15:15:44Z INFO AgentProcess] Type is System.Int32
+[2026-03-14 15:15:44Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2026-03-14 15:15:44Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2026-03-14 15:15:44Z INFO AgentProcess] Found 2 versions:
+[2026-03-14 15:15:44Z INFO AgentProcess]  4.7.0
+[2026-03-14 15:15:44Z INFO AgentProcess]  4.7.0
+[2026-03-14 15:15:44Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2026-03-14 15:15:44Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:44Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:44Z VERB PromptManager] Entering Initialize
+[2026-03-14 15:15:45Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": null,
+  "DebugMode": false,
+  "Help": false,
+  "Version": false
+}
+[2026-03-14 15:15:45Z INFO AgentProcess] Command line arguments parsed successfully - ready for command execution
+[2026-03-14 15:15:45Z VERB Agent] Entering Initialize
+[2026-03-14 15:15:45Z VERB AgentProcess] Delegating command execution to Agent service
+[2026-03-14 15:15:45Z VERB Agent] Entering ExecuteCommand
+[2026-03-14 15:15:45Z VERB Agent] Initializing core services...
+[2026-03-14 15:15:45Z VERB VstsAgentWebProxy] Entering Initialize
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Proxy': 'C:\ESM\e08g08t02-odoo17\agent\.proxy'
+[2026-03-14 15:15:45Z VERB VstsAgentWebProxy] Proxy address: 
+[2026-03-14 15:15:45Z INFO VstsAgentWebProxy] No proxy setting found.
+[2026-03-14 15:15:45Z VERB AgentCertificateManager] Entering Initialize
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Certificates': 'C:\ESM\e08g08t02-odoo17\agent\.certificates'
+[2026-03-14 15:15:45Z INFO AgentCertificateManager] No certificate setting found.
+[2026-03-14 15:15:45Z VERB ConfigurationManager] Entering Initialize
+[2026-03-14 15:15:45Z VERB ConfigurationManager] Creating _store
+[2026-03-14 15:15:45Z VERB ConfigurationStore] Entering Initialize
+[2026-03-14 15:15:45Z INFO ConfigurationStore] currentAssemblyLocation: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] binPath: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] RootFolder: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Agent': 'C:\ESM\e08g08t02-odoo17\agent\.agent'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] ConfigFilePath: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Credentials': 'C:\ESM\e08g08t02-odoo17\agent\.credentials'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] CredFilePath: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Service': 'C:\ESM\e08g08t02-odoo17\agent\.service'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] ServiceConfigFilePath: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Autologon': 'C:\ESM\e08g08t02-odoo17\agent\.autologon'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] AutoLogonSettingsFilePath: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'Options': 'C:\ESM\e08g08t02-odoo17\agent\.options'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] RuntimeOptionsFilePath: {0}
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'SetupInfo': 'C:\ESM\e08g08t02-odoo17\agent\.setup_info'
+[2026-03-14 15:15:45Z INFO ConfigurationStore] SetupInfoFilePath: {0}
+[2026-03-14 15:15:45Z VERB ConfigurationManager] store created
+[2026-03-14 15:15:45Z VERB LocationServer] Entering Initialize
+[2026-03-14 15:15:45Z INFO Agent] Loading agent configuration from settings store
+[2026-03-14 15:15:45Z INFO ConfigurationManager] LoadSettings
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured: True
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Is configured: True
+[2026-03-14 15:15:45Z INFO ConfigurationStore] Read setting file: 173 chars
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Settings Loaded
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured: True
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Is configured: True
+[2026-03-14 15:15:45Z VERB Agent] Agent configuration loaded successfully, Configured as service: 'False'
+[2026-03-14 15:15:45Z INFO Agent] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2026-03-14 15:15:45Z INFO Agent] Set agent startup type - Manual
+[2026-03-14 15:15:45Z INFO CommandSettings] Flag 'debug': 'False'
+[2026-03-14 15:15:45Z VERB ConfigurationStore] Entering IsAutoLogonConfigured
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsAutoLogonConfigured: False
+[2026-03-14 15:15:45Z VERB TelemetryPublisher] Entering Initialize
+[2026-03-14 15:15:45Z VERB CustomerIntelligenceServer] Entering Initialize
+[2026-03-14 15:15:45Z VERB CredentialManager] Entering Initialize
+[2026-03-14 15:15:45Z INFO ConfigurationStore] HasCredentials()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] stored True
+[2026-03-14 15:15:45Z INFO CredentialManager] GetCredentialProvider
+[2026-03-14 15:15:45Z INFO CredentialManager] Creating type OAuth
+[2026-03-14 15:15:45Z INFO CredentialManager] Creating credential type: OAuth
+[2026-03-14 15:15:45Z VERB CredentialManager] Created credential type
+[2026-03-14 15:15:45Z VERB RSAEncryptedFileKeyManager] Entering Initialize
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:45Z INFO HostContext] Well known directory 'Root': 'C:\ESM\e08g08t02-odoo17\agent'
+[2026-03-14 15:15:45Z INFO HostContext] Well known config file 'RSACredentials': 'C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams'
+[2026-03-14 15:15:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 15:15:45Z INFO ConfigurationManager] LoadSettings
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured: True
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Is configured: True
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Settings Loaded
+[2026-03-14 15:15:45Z VERB VisualStudioServices] Started POST request to https://dev.azure.com/e08g08t02/_apis/CustomerIntelligence/Events
+[2026-03-14 15:15:45Z VERB VisualStudioServices] Created OAuth issued token provider instance 34013913 (Bearer)
+[2026-03-14 15:15:45Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/c98a79ca-5a9a-4791-a243-f06afd67464d, Basic realm="https://tfsprodsea3.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: e5a2a6f6-badf-45d7-abd7-e31b01ba2595
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 7119c0f5-896c-497d-9210-1526f94a95a6
+X-TFS-Session: 337fc13f-f5c0-4249-920c-76be0ea26e2b
+X-VSS-E2EID: 22033d16-9561-4ecd-af65-df40fc783efc
+X-VSS-SenderDeploymentId: 9758032d-ff76-13e8-1f91-b4fe1029dd88
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsea3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/e08g08t02/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/e08g08t02/
+X-VSS-ResourceTenant: c98a79ca-5a9a-4791-a243-f06afd67464d
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsea3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fe08g08t02%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=e69f2301-0da9-4f0f-a2cf-93b3fc3c73d4&context=eyJodCI6MiwiaGlkIjoiMWQzZDU4OWItMjEwMC00NGQ4LWIwOTktYzNlMjQ2MTlmZGY3IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=d08d3e09-c50a-4ad4-96c1-f7e69714fb68#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:d6280374-bd4b-4c73-ac89-8e3df8edabdf
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 625D1AF88A204769B5E4B56B39059728 Ref B: SG2AA1070301029 Ref C: 2026-03-14T15:15:45Z
+Date: Sat, 14 Mar 2026 15:15:44 GMT
+
+[2026-03-14 15:15:45Z VERB VisualStudioServices] Started authentication
+[2026-03-14 15:15:45Z VERB VisualStudioServices] OAuth issued token provider instance 34013913 is acquiring a token
+[2026-03-14 15:15:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 15:15:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 15:15:45Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-03-14 15:15:45Z VERB VisualStudioServices] OAuth issued token provider instance 34013913 acquired new token instance 61115195
+[2026-03-14 15:15:45Z VERB VisualStudioServices] Finished authentication
+[2026-03-14 15:15:45Z VERB VisualStudioServices] OAuth issued token provider instance 34013913 validated token instance 61115195
+[2026-03-14 15:15:45Z VERB VisualStudioServices] Finished POST request to https://dev.azure.com/e08g08t02/_apis/CustomerIntelligence/Events with status code 204
+[2026-03-14 15:15:45Z INFO CommandSettings] Flag 'once': 'False'
+[2026-03-14 15:15:45Z INFO CommandSettings] Flag 'once': 'False'
+[2026-03-14 15:15:45Z VERB Agent] Entering RunAsync
+[2026-03-14 15:15:45Z INFO Agent] Entering main agent execution loop(RunAsync)
+[2026-03-14 15:15:45Z VERB FeatureFlagProvider] Entering Initialize
+[2026-03-14 15:15:45Z VERB Agent] GetFeatureFlagAsync
+[2026-03-14 15:15:45Z INFO ConfigurationStore] HasCredentials()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] stored True
+[2026-03-14 15:15:45Z INFO CredentialManager] GetCredentialProvider
+[2026-03-14 15:15:45Z INFO CredentialManager] Creating type OAuth
+[2026-03-14 15:15:45Z INFO CredentialManager] Creating credential type: OAuth
+[2026-03-14 15:15:45Z VERB CredentialManager] Created credential type
+[2026-03-14 15:15:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 15:15:45Z INFO ConfigurationManager] LoadSettings
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured()
+[2026-03-14 15:15:45Z INFO ConfigurationStore] IsConfigured: True
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Is configured: True
+[2026-03-14 15:15:45Z INFO ConfigurationManager] Settings Loaded
+[2026-03-14 15:15:46Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/e08g08t02/_apis/FeatureFlags/DistributedTask.Agent.CheckPsModulesLocations
+[2026-03-14 15:15:46Z VERB VisualStudioServices] Created OAuth issued token provider instance 32901400 (Bearer)
+[2026-03-14 15:15:46Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/c98a79ca-5a9a-4791-a243-f06afd67464d, Basic realm="https://tfsprodsea3.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 919abb9a-5b18-4458-a387-3e8cc58f8abb
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: a82c054c-b70e-4486-813c-84b444d1fdc9
+X-TFS-Session: 337fc13f-f5c0-4249-920c-76be0ea26e2b
+X-VSS-E2EID: a08f6192-4ca5-46ef-8500-1c6e376a279b
+X-VSS-SenderDeploymentId: 9758032d-ff76-13e8-1f91-b4fe1029dd88
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsea3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/e08g08t02/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/e08g08t02/
+X-VSS-ResourceTenant: c98a79ca-5a9a-4791-a243-f06afd67464d
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsea3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fe08g08t02%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.CheckPsModulesLocations%3FcheckFeatureExists%3DFalse&redirect=1&hid=e69f2301-0da9-4f0f-a2cf-93b3fc3c73d4&context=eyJodCI6MiwiaGlkIjoiMWQzZDU4OWItMjEwMC00NGQ4LWIwOTktYzNlMjQ2MTlmZGY3IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=53571fff-2c46-4e5c-9fab-8aab58bf54ee#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:d6280374-bd4b-4c73-ac89-8e3df8edabdf
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: DBF1B8EDAE8B4C57A546009158EE4327 Ref B: SG2AA1040518040 Ref C: 2026-03-14T15:15:46Z
+Date: Sat, 14 Mar 2026 15:15:46 GMT
+
+[2026-03-14 15:15:46Z VERB VisualStudioServices] Started authentication
+[2026-03-14 15:15:46Z VERB VisualStudioServices] OAuth issued token provider instance 32901400 is acquiring a token
+[2026-03-14 15:15:46Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 15:15:46Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 15:15:46Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-03-14 15:15:46Z VERB VisualStudioServices] OAuth issued token provider instance 32901400 acquired new token instance 11429296
+[2026-03-14 15:15:46Z VERB VisualStudioServices] Finished authentication
+[2026-03-14 15:15:46Z VERB VisualStudioServices] OAuth issued token provider instance 32901400 validated token instance 11429296
+[2026-03-14 15:15:46Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/e08g08t02/_apis/FeatureFlags/DistributedTask.Agent.CheckPsModulesLocations with status code 200
+[2026-03-14 15:15:46Z INFO Agent] Initializing message listener - establishing connection to Azure DevOps
+[2026-03-14 15:15:46Z VERB MessageListener] Entering Initialize
+[2026-03-14 15:15:46Z VERB AgentServer] Entering Initialize
+[2026-03-14 15:15:46Z VERB MessageListener] Entering CreateSessionAsync
+[2026-03-14 15:15:46Z INFO ConfigurationManager] LoadSettings
+[2026-03-14 15:15:46Z INFO ConfigurationStore] IsConfigured()
+[2026-03-14 15:15:46Z INFO ConfigurationStore] IsConfigured: True
+[2026-03-14 15:15:46Z INFO ConfigurationManager] Is configured: True
+[2026-03-14 15:15:46Z INFO ConfigurationManager] Settings Loaded
+[2026-03-14 15:15:46Z INFO MessageListener] {
+  "AgentId": 9,
+  "AgentName": "staging-agent",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://dev.azure.com/e08g08t02/",
+  "WorkFolder": "_work"
+}
+[2026-03-14 15:15:46Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2026-03-14 15:15:46Z VERB CapabilitiesManager] Entering Initialize
+[2026-03-14 15:15:46Z VERB CapabilitiesManager] Entering GetCapabilitiesAsync
+[2026-03-14 15:15:46Z VERB ExtensionManager] Entering Initialize
+[2026-03-14 15:15:46Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-03-14 15:15:46Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-03-14 15:15:46Z VERB AgentCapabilitiesProvider] Entering Initialize
+[2026-03-14 15:15:46Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-03-14 15:15:46Z VERB EnvironmentCapabilitiesProvider] Entering Initialize
+[2026-03-14 15:15:46Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.PowerShellCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-03-14 15:15:46Z VERB PowerShellCapabilitiesProvider] Entering Initialize
+[2026-03-14 15:15:46Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-03-14 15:15:46Z VERB UserCapabilitiesProvider] Entering Initialize
+[2026-03-14 15:15:46Z VERB EnvironmentCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'ALLUSERSPROFILE': 'C:\ProgramData'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'APPDATA': 'C:\Users\ariel\AppData\Roaming'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'CHROME_CRASHPAD_PIPE_NAME': '\\.\pipe\crashpad_14000_GAMZAMLLZCNLAYTU'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles': 'C:\Program Files\Common Files'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles(x86)': 'C:\Program Files (x86)\Common Files'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramW6432': 'C:\Program Files\Common Files'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'COMPUTERNAME': 'ARIEL'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'ComSpec': 'C:\WINDOWS\system32\cmd.exe'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'DriverData': 'C:\Windows\System32\Drivers\DriverData'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'EFC_23676_1592913036': '1'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'FPS_BROWSER_USER_PROFILE_STRING': 'Default'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'GIT_ASKPASS': 'c:\Users\ariel\AppData\Local\Programs\Microsoft VS Code\ce099c1ed2\resources\app\extensions\git\dist\askpass.sh'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEDRIVE': 'C:'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEPATH': '\Users\ariel'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'LOCALAPPDATA': 'C:\Users\ariel\AppData\Local'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGONSERVER': '\\ARIEL'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'NUMBER_OF_PROCESSORS': '16'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDrive': 'C:\Users\ariel\OneDrive'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDriveConsumer': 'C:\Users\ariel\OneDrive'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'OS': 'Windows_NT'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'Path': 'C:\Users\ariel\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ariel\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ariel\AppData\Local\Programs\Python\Python312\;C:\Users\ariel\AppData\Local\Programs\Python\Launcher\;C:\Users\ariel\AppData\Local\Microsoft\WindowsApps;C:\Users\ariel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ariel\AppData\Roaming\npm'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_ARCHITECTURE': 'AMD64'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_IDENTIFIER': 'AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_LEVEL': '25'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_REVISION': '7502'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramData': 'C:\ProgramData'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles': 'C:\Program Files'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles(x86)': 'C:\Program Files (x86)'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramW6432': 'C:\Program Files'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PROMPT': '$P$G'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Skipping: 'PSModulePath'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PUBLIC': 'C:\Users\Public'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PYTHON_BASIC_REPL': '1'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'PYTHONSTARTUP': 'c:\Users\ariel\AppData\Roaming\Code\User\workspaceStorage\7bd748f945695f5ee6e19a5aa6d8e13a\ms-python.python\pythonrc.py'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'SESSIONNAME': 'Console'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemDrive': 'C:'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemRoot': 'C:\WINDOWS'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'TEMP': 'C:\Users\ariel\AppData\Local\Temp'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'TMP': 'C:\Users\ariel\AppData\Local\Temp'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN': 'ARIEL'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN_ROAMINGPROFILE': 'ARIEL'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'ariel'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'USERPROFILE': 'C:\Users\ariel'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VERBOSE_ARG': ''SilentlyContinue''
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': ''
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_MAIN': 'c:\Users\ariel\AppData\Local\Programs\Microsoft VS Code\ce099c1ed2\resources\app\extensions\git\dist\askpass-main.js'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_NODE': 'C:\Users\ariel\AppData\Local\Programs\Microsoft VS Code\Code.exe'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_IPC_HANDLE': '\\.\pipe\vscode-git-9e85afbdd1-sock'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_INJECTION': '1'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1'
+[2026-03-14 15:15:46Z INFO EnvironmentCapabilitiesProvider] Adding 'windir': 'C:\WINDOWS'
+[2026-03-14 15:15:46Z VERB PowerShellCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-03-14 15:15:46Z VERB PowerShellExeUtil] Entering GetPath
+[2026-03-14 15:15:46Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-03-14 15:15:46Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-03-14 15:15:46Z INFO PowerShellExeUtil] Generation: '1'
+[2026-03-14 15:15:46Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-03-14 15:15:46Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-03-14 15:15:46Z INFO PowerShellExeUtil] Generation: '3'
+[2026-03-14 15:15:46Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-03-14 15:15:46Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-03-14 15:15:46Z INFO HostContext] Well known directory 'Bin': 'C:\ESM\e08g08t02-odoo17\agent\bin'
+[2026-03-14 15:15:46Z VERB ProcessInvokerWrapper] Entering Initialize
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper] Starting process:
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -Command ". 'C:\ESM\e08g08t02-odoo17\agent\bin\powershell\Add-Capabilities.ps1'"'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Working directory: 'C:\ESM\e08g08t02-odoo17\agent\bin\powershell'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2026-03-14 15:15:46Z INFO ProcessInvokerWrapper] Process started, waiting for process exit.
