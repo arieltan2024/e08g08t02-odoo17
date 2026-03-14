@@ -1391,3 +1391,247 @@ Date: Sat, 14 Mar 2026 15:15:53 GMT
 [2026-03-14 16:08:13Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 8.944 seconds before retrying.
 [2026-03-14 16:08:22Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
 [2026-03-14 16:08:38Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:09:12Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:09:12Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:09:12Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 7.982 seconds before retrying.
+[2026-03-14 16:09:20Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:09:28Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:09:28Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:09:58Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:10:10Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:10:10Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:10:10Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 12.251 seconds before retrying.
+[2026-03-14 16:10:23Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:10:48Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:10:48Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:11:13Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:11:13Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:11:13Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 14.587 seconds before retrying.
+[2026-03-14 16:11:18Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:11:18Z WARN VisualStudioServices] [OnEventWritten] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/c98a79ca-5a9a-4791-a243-f06afd67464d, Basic realm="https://tfsprodsea3.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: c2f064f2-c37c-4ea3-b1c6-69088ef0109e
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 336a5f56-586f-4cd5-a2f5-eecec5de78c5
+X-TFS-Session: 337fc13f-f5c0-4249-920c-76be0ea26e2b
+X-VSS-E2EID: e6294c4c-95c3-4b0c-8ef2-076c4cfc076d
+X-VSS-SenderDeploymentId: 9758032d-ff76-13e8-1f91-b4fe1029dd88
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsea3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/e08g08t02/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/e08g08t02/
+X-VSS-ResourceTenant: c98a79ca-5a9a-4791-a243-f06afd67464d
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsea3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fe08g08t02%2F_apis%2Fdistributedtask%2Fpools%2F1%2Fmessages%3FsessionId%3D9bac16fd-fcf1-4990-b809-64bec8206605&redirect=1&hid=e69f2301-0da9-4f0f-a2cf-93b3fc3c73d4&context=eyJodCI6MiwiaGlkIjoiMWQzZDU4OWItMjEwMC00NGQ4LWIwOTktYzNlMjQ2MTlmZGY3IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=5ab0d4ac-6986-44d0-9de2-0ef58034da55#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:d6280374-bd4b-4c73-ac89-8e3df8edabdf
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 60B996AF71374B58A8BEC4C7CE764D6F Ref B: SG2AA1070304062 Ref C: 2026-03-14T16:11:18Z
+Date: Sat, 14 Mar 2026 16:11:18 GMT
+[2026-03-14 16:11:18Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 37916227 invalidated token instance 61500996
+[2026-03-14 16:11:18Z VERB VisualStudioServices] [OnEventWritten] Started authentication
+[2026-03-14 16:11:18Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 37916227 is acquiring a token
+[2026-03-14 16:11:18Z INFO RSAEncryptedFileKeyManager] [GetKeyFromFile] Loading RSA key parameters from file C:\ESM\e08g08t02-odoo17\agent\.credentials_rsaparams
+[2026-03-14 16:11:19Z INFO VisualStudioServices] [OnEventWritten] AAD Correlation ID for this token request: Unknown
+[2026-03-14 16:11:19Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 37916227 acquired new token instance 65636583
+[2026-03-14 16:11:19Z VERB VisualStudioServices] [OnEventWritten] Finished authentication
+[2026-03-14 16:11:27Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:12:09Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 37916227 validated token instance 65636583
+[2026-03-14 16:12:09Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:12:09Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:12:18Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:12:18Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:12:18Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 8.443 seconds before retrying.
+[2026-03-14 16:12:26Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:12:39Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:13:16Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:13:16Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:13:16Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 10.631 seconds before retrying.
+[2026-03-14 16:13:27Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:13:29Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:13:29Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:13:59Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:13:59Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:13:59Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:14:17Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:14:17Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:14:17Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 11.297 seconds before retrying.
+[2026-03-14 16:14:28Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:14:29Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:15:18Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:15:18Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:15:18Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 10.65 seconds before retrying.
+[2026-03-14 16:15:19Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:15:19Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:15:29Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:15:49Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:16:19Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:16:19Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:16:19Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 10.558 seconds before retrying.
+[2026-03-14 16:16:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:16:39Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:16:39Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:17:09Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:17:20Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:17:20Z INFO MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605' within last 30 minutes.
+[2026-03-14 16:17:20Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 9.927 seconds before retrying.
+[2026-03-14 16:17:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:17:59Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:17:59Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:18:20Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:18:20Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:18:20Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 13.423 seconds before retrying.
+[2026-03-14 16:18:29Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:18:33Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:19:19Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:19:19Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:19:23Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:19:23Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:19:23Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 7.412 seconds before retrying.
+[2026-03-14 16:19:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:19:49Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:19:49Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:19:49Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:20:19Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:20:21Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:20:21Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:20:21Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 14.426 seconds before retrying.
+[2026-03-14 16:20:35Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:21:09Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:21:09Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:21:25Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:21:25Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:21:25Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 7.338 seconds before retrying.
+[2026-03-14 16:21:32Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:21:39Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:21:39Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:21:39Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:22:09Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:22:23Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:22:23Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:22:23Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 7.831 seconds before retrying.
+[2026-03-14 16:22:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:22:59Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:22:59Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:23:21Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:23:21Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:23:21Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 13.388 seconds before retrying.
+[2026-03-14 16:23:29Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:23:34Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:24:20Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:24:20Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:24:24Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:24:24Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:24:24Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 14.563 seconds before retrying.
+[2026-03-14 16:24:39Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:24:50Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:25:29Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:25:29Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:25:29Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 13.06 seconds before retrying.
+[2026-03-14 16:25:40Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:25:40Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:25:42Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:26:10Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:26:32Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:26:32Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:26:32Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 11.008 seconds before retrying.
+[2026-03-14 16:30:22Z WARN VisualStudioServices] [OnEventWritten] Attempt 1 of GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages failed (Socket Error: ConnectionReset). The operation will be retried in 10.9568989 seconds.
+[2026-03-14 16:30:33Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:30:33Z VERB VisualStudioServices] [OnEventWritten] Attempt 2 of GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages succeeded.
+[2026-03-14 16:30:33Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:30:33Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:31:03Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:31:23Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:31:23Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:31:23Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 10.841 seconds before retrying.
+[2026-03-14 16:31:34Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:31:53Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:31:53Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:32:23Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:32:24Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:32:24Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:32:24Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 8.39 seconds before retrying.
+[2026-03-14 16:32:33Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:32:33Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:32:33Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:32:33Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 13.746 seconds before retrying.
+[2026-03-14 16:32:46Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:33:13Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:33:13Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:33:36Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:33:36Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:33:36Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 14.846 seconds before retrying.
+[2026-03-14 16:33:43Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:33:51Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:34:33Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:34:33Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:34:41Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:34:41Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:34:41Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 11.524 seconds before retrying.
+[2026-03-14 16:34:53Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:35:03Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:35:43Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:35:43Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:35:43Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 6.555 seconds before retrying.
+[2026-03-14 16:35:50Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:35:54Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:35:54Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:36:24Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:36:40Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:36:40Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:36:40Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 7.241 seconds before retrying.
+[2026-03-14 16:36:47Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:37:14Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:37:14Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:37:37Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:37:37Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:37:37Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 11.079 seconds before retrying.
+[2026-03-14 16:37:44Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:37:48Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:38:34Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:38:34Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:38:38Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:38:38Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:38:38Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 11.762 seconds before retrying.
+[2026-03-14 16:38:50Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:39:04Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:39:40Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:39:40Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:39:40Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 9.927 seconds before retrying.
+[2026-03-14 16:39:50Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:39:54Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:39:54Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:40:24Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:40:40Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:40:40Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:40:40Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 13.423 seconds before retrying.
+[2026-03-14 16:40:54Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:41:14Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:41:14Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:41:44Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:41:44Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:41:44Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 7.412 seconds before retrying.
+[2026-03-14 16:41:44Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:41:51Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages
+[2026-03-14 16:42:34Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:42:34Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 9, session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:42:41Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/messages with status code 202
+[2026-03-14 16:42:41Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '9bac16fd-fcf1-4990-b809-64bec8206605'.
+[2026-03-14 16:42:41Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 14.426 seconds before retrying.
+[2026-03-14 16:42:45Z INFO Terminal] [WriteLine] WRITE LINE: Exiting...
+[2026-03-14 16:42:45Z INFO ConfigurationStore] [IsServiceConfigured] IsServiceConfigured()
+[2026-03-14 16:42:45Z INFO ConfigurationStore] [IsServiceConfigured] IsServiceConfigured: False
+[2026-03-14 16:42:45Z INFO HostContext] [ShutdownAgent] Agent will be shutdown for UserCancelled
+[2026-03-14 16:42:45Z INFO Agent] [RunAsync] Message deletion skipped - Either skip flag set or no message to delete
+[2026-03-14 16:42:45Z INFO Agent] [RunAsync] Beginning agent shutdown sequence - cleaning up resources
+[2026-03-14 16:42:45Z INFO Agent] [RunAsync] Shutting down job dispatcher - terminating active jobs
+[2026-03-14 16:42:45Z INFO JobDispatcher] [ShutdownAsync] JobDispatcher shutdown initiated [ActiveJobs:0, QueuedJobs:0]
+[2026-03-14 16:42:45Z INFO JobDispatcher] [ShutdownAsync] JobDispatcher shutdown completed - all worker processes terminated
+[2026-03-14 16:42:45Z INFO Agent] [RunAsync] Cleaning up agent listener session - disconnecting from Azure DevOps
+[2026-03-14 16:42:45Z VERB VisualStudioServices] [OnEventWritten] Started DELETE request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/sessions/9bac16fd-fcf1-4990-b809-64bec8206605
+[2026-03-14 16:42:45Z VERB VisualStudioServices] [OnEventWritten] Finished DELETE request to https://dev.azure.com/e08g08t02/_apis/distributedtask/pools/1/sessions/9bac16fd-fcf1-4990-b809-64bec8206605 with status code 204
+[2026-03-14 16:42:45Z INFO AgentProcess] [MainAsync] Agent execution cancelled - graceful shutdown requested
